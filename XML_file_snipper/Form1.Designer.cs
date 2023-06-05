@@ -28,70 +28,70 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            label_from_path = new Label();
-            label_num_item = new Label();
-            numericUpDown1 = new NumericUpDown();
+            Generate_Button = new Button();
+            Path_text = new Label();
+            Nodes_Per_XML_Text = new Label();
+            Number_Of_Elements_Per_file = new NumericUpDown();
             label3 = new Label();
-            browse_button = new Button();
-            label_to_path = new Label();
-            button2 = new Button();
-            textBox2 = new TextBox();
-            file_path_textbox = new TextBox();
-            richTextBox1 = new RichTextBox();
+            Destination_Open_Button = new Button();
+            destination_text = new Label();
+            Path_Open_Button = new Button();
+            File_Destination_Textbox = new TextBox();
+            File_Path_Textbox = new TextBox();
+            Progress_output_text = new RichTextBox();
             progressBar1 = new ProgressBar();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Number_Of_Elements_Per_file).BeginInit();
             SuspendLayout();
             // 
-            // button1
+            // Generate_Button
             // 
-            button1.BackColor = Color.Snow;
-            button1.Font = new Font("Candara", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            button1.ForeColor = Color.Black;
-            button1.Location = new Point(267, 476);
-            button1.Margin = new Padding(4, 3, 4, 3);
-            button1.Name = "button1";
-            button1.Size = new Size(260, 120);
-            button1.TabIndex = 0;
-            button1.Text = "Generate";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            Generate_Button.BackColor = Color.Snow;
+            Generate_Button.Font = new Font("Candara", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            Generate_Button.ForeColor = Color.Black;
+            Generate_Button.Location = new Point(267, 476);
+            Generate_Button.Margin = new Padding(4, 3, 4, 3);
+            Generate_Button.Name = "Generate_Button";
+            Generate_Button.Size = new Size(260, 120);
+            Generate_Button.TabIndex = 0;
+            Generate_Button.Text = "Generate";
+            Generate_Button.UseVisualStyleBackColor = false;
+            Generate_Button.Click += button1_Click;
             // 
-            // label_from_path
+            // Path_text
             // 
-            label_from_path.AutoSize = true;
-            label_from_path.Font = new Font("Candara", 10.8F, FontStyle.Italic, GraphicsUnit.Point);
-            label_from_path.ForeColor = SystemColors.ControlText;
-            label_from_path.Location = new Point(54, 132);
-            label_from_path.Margin = new Padding(4, 0, 4, 0);
-            label_from_path.Name = "label_from_path";
-            label_from_path.Size = new Size(49, 22);
-            label_from_path.TabIndex = 1;
-            label_from_path.Text = "Path:";
-            label_from_path.Click += label1_Click;
+            Path_text.AutoSize = true;
+            Path_text.Font = new Font("Candara", 10.8F, FontStyle.Italic, GraphicsUnit.Point);
+            Path_text.ForeColor = SystemColors.ControlText;
+            Path_text.Location = new Point(54, 132);
+            Path_text.Margin = new Padding(4, 0, 4, 0);
+            Path_text.Name = "Path_text";
+            Path_text.Size = new Size(41, 18);
+            Path_text.TabIndex = 1;
+            Path_text.Text = "Path:";
+            Path_text.Click += label1_Click;
             // 
-            // label_num_item
+            // Nodes_Per_XML_Text
             // 
-            label_num_item.AutoSize = true;
-            label_num_item.Font = new Font("Candara", 10.8F, FontStyle.Italic, GraphicsUnit.Point);
-            label_num_item.ForeColor = SystemColors.ControlText;
-            label_num_item.Location = new Point(55, 272);
-            label_num_item.Margin = new Padding(4, 0, 4, 0);
-            label_num_item.Name = "label_num_item";
-            label_num_item.Size = new Size(228, 22);
-            label_num_item.TabIndex = 2;
-            label_num_item.Text = "Number of items per XML file";
-            label_num_item.Click += label_num_item_Click;
+            Nodes_Per_XML_Text.AutoSize = true;
+            Nodes_Per_XML_Text.Font = new Font("Candara", 10.8F, FontStyle.Italic, GraphicsUnit.Point);
+            Nodes_Per_XML_Text.ForeColor = SystemColors.ControlText;
+            Nodes_Per_XML_Text.Location = new Point(55, 272);
+            Nodes_Per_XML_Text.Margin = new Padding(4, 0, 4, 0);
+            Nodes_Per_XML_Text.Name = "Nodes_Per_XML_Text";
+            Nodes_Per_XML_Text.Size = new Size(184, 18);
+            Nodes_Per_XML_Text.TabIndex = 2;
+            Nodes_Per_XML_Text.Text = "Number of items per XML file";
+            Nodes_Per_XML_Text.Click += label_num_item_Click;
             // 
-            // numericUpDown1
+            // Number_Of_Elements_Per_file
             // 
-            numericUpDown1.Location = new Point(291, 270);
-            numericUpDown1.Margin = new Padding(4, 3, 4, 3);
-            numericUpDown1.Maximum = new decimal(new int[] { 10000000, 0, 0, 0 });
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(188, 29);
-            numericUpDown1.TabIndex = 3;
-            numericUpDown1.ValueChanged += numericUpDown1_ValueChanged;
+            Number_Of_Elements_Per_file.Location = new Point(291, 270);
+            Number_Of_Elements_Per_file.Margin = new Padding(4, 3, 4, 3);
+            Number_Of_Elements_Per_file.Maximum = new decimal(new int[] { 10000000, 0, 0, 0 });
+            Number_Of_Elements_Per_file.Name = "Number_Of_Elements_Per_file";
+            Number_Of_Elements_Per_file.Size = new Size(188, 25);
+            Number_Of_Elements_Per_file.TabIndex = 3;
+            Number_Of_Elements_Per_file.ValueChanged += numericUpDown1_ValueChanged;
             // 
             // label3
             // 
@@ -100,76 +100,76 @@
             label3.Location = new Point(55, 27);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(244, 41);
+            label3.Size = new Size(197, 33);
             label3.TabIndex = 4;
             label3.Text = "XML file snipper";
             label3.Click += label3_Click;
             // 
-            // browse_button
+            // Destination_Open_Button
             // 
-            browse_button.Font = new Font("Candara", 10.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            browse_button.Location = new Point(682, 193);
-            browse_button.Margin = new Padding(4, 3, 4, 3);
-            browse_button.Name = "browse_button";
-            browse_button.Size = new Size(108, 40);
-            browse_button.TabIndex = 5;
-            browse_button.Text = "Open";
-            browse_button.UseVisualStyleBackColor = true;
-            browse_button.Click += button2_Click;
+            Destination_Open_Button.Font = new Font("Candara", 10.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            Destination_Open_Button.Location = new Point(682, 193);
+            Destination_Open_Button.Margin = new Padding(4, 3, 4, 3);
+            Destination_Open_Button.Name = "Destination_Open_Button";
+            Destination_Open_Button.Size = new Size(108, 40);
+            Destination_Open_Button.TabIndex = 5;
+            Destination_Open_Button.Text = "Open";
+            Destination_Open_Button.UseVisualStyleBackColor = true;
+            Destination_Open_Button.Click += button2_Click;
             // 
-            // label_to_path
+            // destination_text
             // 
-            label_to_path.AutoSize = true;
-            label_to_path.Font = new Font("Candara", 10.8F, FontStyle.Italic, GraphicsUnit.Point);
-            label_to_path.Location = new Point(55, 202);
-            label_to_path.Margin = new Padding(4, 0, 4, 0);
-            label_to_path.Name = "label_to_path";
-            label_to_path.Size = new Size(101, 22);
-            label_to_path.TabIndex = 7;
-            label_to_path.Text = "Destination:";
+            destination_text.AutoSize = true;
+            destination_text.Font = new Font("Candara", 10.8F, FontStyle.Italic, GraphicsUnit.Point);
+            destination_text.Location = new Point(55, 202);
+            destination_text.Margin = new Padding(4, 0, 4, 0);
+            destination_text.Name = "destination_text";
+            destination_text.Size = new Size(83, 18);
+            destination_text.TabIndex = 7;
+            destination_text.Text = "Destination:";
             // 
-            // button2
+            // Path_Open_Button
             // 
-            button2.Font = new Font("Candara", 10.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            button2.Location = new Point(630, 123);
-            button2.Margin = new Padding(4);
-            button2.Name = "button2";
-            button2.Size = new Size(108, 40);
-            button2.TabIndex = 9;
-            button2.Text = "Open";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click_1;
+            Path_Open_Button.Font = new Font("Candara", 10.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            Path_Open_Button.Location = new Point(630, 123);
+            Path_Open_Button.Margin = new Padding(4);
+            Path_Open_Button.Name = "Path_Open_Button";
+            Path_Open_Button.Size = new Size(108, 40);
+            Path_Open_Button.TabIndex = 9;
+            Path_Open_Button.Text = "Open";
+            Path_Open_Button.UseVisualStyleBackColor = true;
+            Path_Open_Button.Click += button2_Click_1;
             // 
-            // textBox2
+            // File_Destination_Textbox
             // 
-            textBox2.Enabled = false;
-            textBox2.Location = new Point(159, 199);
-            textBox2.Margin = new Padding(4, 3, 4, 3);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(515, 29);
-            textBox2.TabIndex = 8;
-            textBox2.TextChanged += textBox2_TextChanged;
+            File_Destination_Textbox.Enabled = false;
+            File_Destination_Textbox.Location = new Point(159, 199);
+            File_Destination_Textbox.Margin = new Padding(4, 3, 4, 3);
+            File_Destination_Textbox.Name = "File_Destination_Textbox";
+            File_Destination_Textbox.Size = new Size(515, 25);
+            File_Destination_Textbox.TabIndex = 8;
+            File_Destination_Textbox.TextChanged += textBox2_TextChanged;
             // 
-            // file_path_textbox
+            // File_Path_Textbox
             // 
-            file_path_textbox.Enabled = false;
-            file_path_textbox.Font = new Font("Candara", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
-            file_path_textbox.Location = new Point(107, 129);
-            file_path_textbox.Margin = new Padding(4, 3, 4, 3);
-            file_path_textbox.Name = "file_path_textbox";
-            file_path_textbox.Size = new Size(515, 29);
-            file_path_textbox.TabIndex = 6;
-            file_path_textbox.TextChanged += file_path_textbox_TextChanged;
+            File_Path_Textbox.Enabled = false;
+            File_Path_Textbox.Font = new Font("Candara", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
+            File_Path_Textbox.Location = new Point(107, 129);
+            File_Path_Textbox.Margin = new Padding(4, 3, 4, 3);
+            File_Path_Textbox.Name = "File_Path_Textbox";
+            File_Path_Textbox.Size = new Size(515, 25);
+            File_Path_Textbox.TabIndex = 6;
+            File_Path_Textbox.TextChanged += file_path_textbox_TextChanged;
             // 
-            // richTextBox1
+            // Progress_output_text
             // 
-            richTextBox1.Font = new Font("Candara", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
-            richTextBox1.Location = new Point(797, -1);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(680, 656);
-            richTextBox1.TabIndex = 10;
-            richTextBox1.Text = "";
-            richTextBox1.TextChanged += richTextBox1_TextChanged_1;
+            Progress_output_text.Font = new Font("Candara", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            Progress_output_text.Location = new Point(797, -1);
+            Progress_output_text.Name = "Progress_output_text";
+            Progress_output_text.Size = new Size(680, 656);
+            Progress_output_text.TabIndex = 10;
+            Progress_output_text.Text = "";
+            Progress_output_text.TextChanged += richTextBox1_TextChanged_1;
             // 
             // progressBar1
             // 
@@ -181,45 +181,45 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 22F);
+            AutoScaleDimensions = new SizeF(8F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1478, 656);
             Controls.Add(progressBar1);
-            Controls.Add(richTextBox1);
-            Controls.Add(button2);
-            Controls.Add(textBox2);
-            Controls.Add(label_to_path);
-            Controls.Add(file_path_textbox);
-            Controls.Add(browse_button);
+            Controls.Add(Progress_output_text);
+            Controls.Add(Path_Open_Button);
+            Controls.Add(File_Destination_Textbox);
+            Controls.Add(destination_text);
+            Controls.Add(File_Path_Textbox);
+            Controls.Add(Destination_Open_Button);
             Controls.Add(label3);
-            Controls.Add(numericUpDown1);
-            Controls.Add(label_num_item);
-            Controls.Add(label_from_path);
-            Controls.Add(button1);
+            Controls.Add(Number_Of_Elements_Per_file);
+            Controls.Add(Nodes_Per_XML_Text);
+            Controls.Add(Path_text);
+            Controls.Add(Generate_Button);
             Font = new Font("Candara", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
             Margin = new Padding(4, 3, 4, 3);
             Name = "Form1";
             Text = "XML_File_snipper";
             Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Number_Of_Elements_Per_file).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
-        private Label label_from_path;
-        private Label label_num_item;
-        private NumericUpDown numericUpDown1;
+        private Button Generate_Button;
+        private Label Path_text;
+        private Label Nodes_Per_XML_Text;
+        private NumericUpDown Number_Of_Elements_Per_file;
         private Label label3;
-        private Button browse_button;
-        private Label label_to_path;
-        private Button button2;
-        private TextBox textBox2;
-        private TextBox file_path_textbox;
-        private RichTextBox richTextBox1;
+        private Button Destination_Open_Button;
+        private Label destination_text;
+        private Button Path_Open_Button;
+        private TextBox File_Destination_Textbox;
+        private TextBox File_Path_Textbox;
+        private RichTextBox Progress_output_text;
         private ProgressBar progressBar1;
     }
 }
