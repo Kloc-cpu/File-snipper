@@ -1,0 +1,17 @@
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\bin\Debug\net6.0-windows\XML_file_snipper.exe
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\bin\Debug\net6.0-windows\XML_file_snipper.deps.json
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\bin\Debug\net6.0-windows\XML_file_snipper.runtimeconfig.json
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\bin\Debug\net6.0-windows\XML_file_snipper.dll
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\bin\Debug\net6.0-windows\XML_file_snipper.pdb
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\obj\Debug\net6.0-windows\XML_file_snipper.csproj.AssemblyReference.cache
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\obj\Debug\net6.0-windows\XML_file_snipper.Form1.resources
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\obj\Debug\net6.0-windows\XML_file_snipper.csproj.GenerateResource.cache
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\obj\Debug\net6.0-windows\XML_file_snipper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\obj\Debug\net6.0-windows\XML_file_snipper.AssemblyInfoInputs.cache
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\obj\Debug\net6.0-windows\XML_file_snipper.AssemblyInfo.cs
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\obj\Debug\net6.0-windows\XML_file_snipper.csproj.CoreCompileInputs.cache
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\obj\Debug\net6.0-windows\XML_file_snipper.dll
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\obj\Debug\net6.0-windows\refint\XML_file_snipper.dll
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\obj\Debug\net6.0-windows\XML_file_snipper.pdb
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\obj\Debug\net6.0-windows\XML_file_snipper.genruntimeconfig.cache
+C:\Users\KlemenZukovec\source\repos\XML_file_snipper\XML_file_snipper\obj\Debug\net6.0-windows\ref\XML_file_snipper.dll
